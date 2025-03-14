@@ -63,7 +63,7 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    "my_spider_project.pipelines.ZbPipeline": 300,
+    "my_spider_project.pipelines.MariaDBAsyncPipeline": 300,
 }
 
 MYSQL_HOST = 'localhost'
